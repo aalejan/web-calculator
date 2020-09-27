@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <script src="scripts.js"></script>
+  </head>
+
+  <body>
+    <h1>Calculator</h1>
+    <form>
+      First Number:
+      <input id="firstNum" />
+
+      <select name="Operations" id="operator">
+        <option value=""></option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+      </select>
+
+      Second Number:
+      <input id="secondNum" />
+
+      <button value="answer" onclick="webCalculator()">answer</button>
+      <span id="answer"></span>
+    </form>
+  </body>
+</html>
